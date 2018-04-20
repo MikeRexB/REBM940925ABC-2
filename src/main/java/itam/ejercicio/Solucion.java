@@ -1,4 +1,4 @@
-package itam.examen;
+package itam.ejercicio;
 
 public class Solucion {
 
@@ -6,6 +6,8 @@ public class Solucion {
 	boolean resp = false;
 	int n = 1;
 	StringBuilder sb = new StringBuilder();
+
+	if(s == null) return false;
 
 	while(n < s.length() && !resp){
 		for(int j =0; j < s.length()/n; j++){
